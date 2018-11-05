@@ -39,7 +39,6 @@ router.post("/register", (req, res) => {
               newUser.save()
                .then(User => res.json(User))
                .catch(err => console.log(err))
-               .catch (err)
 
           })
       })
